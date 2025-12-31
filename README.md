@@ -92,7 +92,7 @@ Workflow file:
 
 ---
 
-## 🖥 EC2 Server Setup
+## EC2 Server Setup
 
 Your EC2 instance should contain this file at `~/app/docker-compose.yml`:
 
