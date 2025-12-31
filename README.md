@@ -1,4 +1,4 @@
-# 🐳 Dockerized Express Login App
+# Dockerized Express Login App
 
 A simple Node.js + Express application that validates a username and password submitted through a form.  
 The app is fully containerized with Docker and automatically deployed to an AWS EC2 instance using GitHub Actions.
@@ -11,7 +11,7 @@ The project template followed: https://roadmap.sh/projects/dockerized-service-de
 
 ---
 
-## 🚀 Features
+## Features
 
 - Express server with `/` and `/secret` routes
 - Login form served via `/secret` (GET)
@@ -22,7 +22,7 @@ The project template followed: https://roadmap.sh/projects/dockerized-service-de
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 .
@@ -37,7 +37,7 @@ The project template followed: https://roadmap.sh/projects/dockerized-service-de
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Local development uses `.env`:
 
@@ -52,7 +52,7 @@ When deployed, environment variables are set on the EC2 host (not inside the ima
 
 ---
 
-## 🐋 Docker Usage
+## Docker Usage
 
 ### Build locally
 
@@ -74,7 +74,7 @@ http://localhost:3000
 
 ---
 
-## ⚙️ GitHub Actions CI/CD
+## GitHub Actions CI/CD
 
 On every push to the **master** branch:
 
@@ -105,7 +105,7 @@ services:
       - "3000:3000"
 ```
 
-## ✅ Endpoints
+## Endpoints
 
 | Method | Route     | Description                     |
 | ------ | --------- | ------------------------------- |
@@ -115,7 +115,7 @@ services:
 
 ---
 
-## ☁️ Requirements
+## Requirements
 
 - Docker & Docker Compose installed on EC2
 - EC2 security group allows inbound traffic on port **3000**
